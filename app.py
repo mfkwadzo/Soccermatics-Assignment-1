@@ -205,3 +205,30 @@ st.dataframe(compare_df)
 
 # Display comparison chart
 st.bar_chart(compare_df.set_index('Player'),color=['#ff0000',"#1b6806"])
+
+#Adding my linkedin
+# st.link_button("Connect on LinkedIn", "https://www.linkedin.com/in/mabelfafalikwadzo")
+st.markdown(
+    """
+    <a href="https://www.linkedin.com/in/mabelfafalikwadzo" target="_blank">
+        <button style="
+            background-color:#fffff;
+            color:blue;
+            border:none;
+            padding:10px 20px;
+            font-size:16px;
+            border-radius:8px;
+            cursor:pointer;
+            display:flex;
+            align-items:center;
+            gap:8px;
+        ">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" 
+                 width="20" height="20">
+            Connect on LinkedIn
+        </button>
+    </a>
+    """,
+    unsafe_allow_html=True
+)
+
